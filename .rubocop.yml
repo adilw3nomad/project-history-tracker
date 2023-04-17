@@ -3,6 +3,7 @@ AllCops:
   NewCops: disable
   SuggestExtensions: False
   Exclude:
+    - ./vendor/bundle/**/*
     - ./bin/*
 
 Style/Documentation:
