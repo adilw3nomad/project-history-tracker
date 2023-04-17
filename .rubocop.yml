@@ -1,0 +1,9 @@
+# .rubocop.yml
+AllCops:
+  NewCops: disable
+  SuggestExtensions: False
+  Exclude:
+    - ./bin/*
+
+Style/Documentation:
+  Enabled: False
